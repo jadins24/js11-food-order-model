@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+.nav{
+    width: 90%;
+    margin: 0 auto;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-between;
+}
+.food-section{
+    margin: 50px 0px;
+}
+.container{
+    width: 90%;
+    margin: 0 auto;
+    
+}
+.container h1{
+    text-align: center;
+}
+.row
+{
+    display: flex;
+    flex-wrap: wrap;
+}
+.col{
+    width: 25%;
+}
+.card{
+    margin: 10px;
+    padding: 20px;
+}
+.card:hover{
+    outline: 1px solid #80808080;
+    box-shadow: 1px -1px 3px #80808080;
+}
+.card h3,.card p,.card .star-rate,.card img{
+    margin: 5px 0px;
+}
+.card p{
+    color: gray;
+    margin-bottom: 10px;
+}
+.card img{
+    width: 100%;
+    height: 100%;
+}
+.card-text{
+    display: flex;
+    justify-content: space-between;
+}
+.card-title{
+    width: 100%;
+}
+.add-item{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+.add-item i{
+    cursor: pointer;
+}
+input{
+    width: 20%;
+    margin: 0px 5px;
+    border:none;
+    text-align: center;
+}
+.icon{
+    background-color: green;
+    color: white;
+    padding: 4px 7px;
+}
+.icon i{
+    font-size: 11px;
+}
+.icon span{
+    display: inline-block;
+    margin-left: 10px;
+    font-size: 13px;
+}
+.star-rate{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 15px;
+   
+}
+
+
+@media(min-width:320px){
+    .col{
+        width: 100%;
+    }
+}
+@media(min-width:600px){
+    .col{
+        width: 50%;
+    }
+}
+
+@media(min-width:1024px){
+    .col{
+        width: 25%;
+    }
+}
+
